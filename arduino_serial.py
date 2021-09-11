@@ -1,6 +1,8 @@
 """
 
   **DEPENDS ON SPECIFIC ARDUINO SKETCH: "usonic_streaming" RUNNING ON THE ARDUINO.  
+  IF THIS COMES UP WITH AN ERROR INDICATING THE TUPLE NOT RECIEVED FOR THE COM PORT.
+  JUST REMOVE AND REINSERT THE USB LINK TO THE ARDUINO.
   Reads and saves ultrasonic sensor data from the Arduino through USB port.
   Will work with Windows, Linux (Ubuntu) for sure.
   Data is added to an array until Arduino signals output is done, and then data is 
